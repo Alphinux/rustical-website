@@ -1,0 +1,192 @@
+* {
+    font-family: 'Lora', sans-serif;
+    padding: 0px;
+    margin: 0px;
+}
+html {
+    overflow-x: hidden;
+}
+body {
+    background-color: #E0DED4;
+    scroll-behavior: smooth;
+}
+header {
+    background-color: #E0DED4;
+    width: 100%;
+    height: 95px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header h2 {
+    font-size: 17.5px;
+    font-style: italic;
+    font-weight: normal;
+    padding: 50px;
+}
+header a {
+    margin: 0px 50px 0px 20px;
+    font-family: 'Lora';
+    font-style: normal;
+    font-weight: 600;
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+#title {
+    height: 70vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#title h1 {
+    font-weight: 400;
+    font-size: 56px;
+    line-height: 58px;
+    text-align: center;
+    color: #2E2E2E;
+}
+#title h1 #titleBetter {
+    font-weight: 600;
+}
+#title h1 #titleFaster {
+    font-style: italic;
+}
+#title h1 #titleWebsites {   
+    background: radial-gradient(100% 160% at 50% 120%, #232323 0%, rgba(0, 0, 0, 0.5) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+#titleCTAs {
+    padding-top: 45px;
+}
+.titleCTAsLink {
+    padding: 30px;
+    color: #2E2E2E;
+    font-weight: 600;
+    font-size: 24px;
+    text-decoration: none;
+    cursor: pointer;
+}
+.titleCTAsLink:hover  svg{
+    transform: translate(10px,10px);
+}
+
+#reasons {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 150px;
+}
+#reasons h1 {
+    font-weight: 400;
+    font-size: 32px;
+}
+#reasonsList {
+    padding-top: 75px;
+    display: grid;
+    grid-template-columns: 250px 250px;
+    grid-template-rows: auto auto;
+    gap: 50px;
+}
+.reasonsListItem {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.reasonsListItem h2 {
+    font-weight: 500;
+    font-size: 24px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.reasonsListItem p {
+    text-align: center;
+}
+
+#company {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 150px;
+}
+#company h1 {
+    font-weight: 400;
+    font-size: 32px;
+}
+#companyBody {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#companyLeft {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    width: calc((0.75/3)*100%);
+    padding-top: 75px;
+}
+#companyTrenner {
+    padding: 50px;
+    padding-right: 0px;
+    mix-blend-mode: overlay;
+}
+#companyRight {
+    display: flex;
+    align-items: left;
+    justify-content: center;
+    flex-direction: column;
+    width: calc((0.75/3)*100% - 50px);
+    padding-left: 50px;
+}
+#companyRight div {
+    padding-bottom: 10px;
+}
+#companyLogo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-left: 50px;
+}
+#companyLogo h2 {
+    font-weight: 400;
+    font-size: 24px;
+}
+#companyLogo h3 {
+    font-weight: 400;
+    font-size: 14px;
+}
+
+#bgVector1 {
+    position: absolute;
+    top: 125px;
+    left: 10px;
+    mix-blend-mode: overlay;
+    scale: 1.3;
+    pointer-events:none;
+}
+#bgCircle1 {
+    position: absolute;
+    top: 35vh;
+    right: -125px;
+    mix-blend-mode: overlay;
+    pointer-events:none;
+}
+#bgTriangle1 {
+    position: absolute;
+    top: 70vh;
+    left: -20px;
+    mix-blend-mode: overlay;
+    pointer-events:none;
+}
